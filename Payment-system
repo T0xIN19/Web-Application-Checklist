@@ -1,0 +1,1 @@
+- [X] The first vulnerability I found was about a payment token is always added to the checkout page like " /checkout?token=1234ABCD" I removed the whole parameter and sent the request to /checkout Purchased successfully
