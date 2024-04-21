@@ -1,0 +1,16 @@
+- [ ]  wayback url | tee -a 1.txt
+- [ ]  katana -u url | tee -a 2.txt
+- [ ]  gau url | tee -a 3.txt
+- [ ]  subfinder -d url | tee -a 4.txt
+- [ ]  ./reconftw.sh -d target.com -r
+- [ ]  bbot -t tesla.com
+- [ ]  amass enum -d example.com  -o .txt
+- [ ]  ffuf -u "" -w /home/inam/Documents/Word-lists/best-dns-wordlist.txt -o fuzz.txt
+- [ ]  wc 1.txt & wc 2.txt
+- [ ]  cat *.txt >> lista.txt
+- [ ]  cat lista.txt | sort | uniq > list.txt
+- [ ]  wc list.txt
+- [ ]  cat list.txt | httpx -mc 200 > working.txt (options)we
+- [ ]  cat gitrecon.txt | dnsx -a -resp-only | nrich -  (convert domain into ip using shodan)
+- [ ]  cat list.txt | httpx —content-lenght —status-code (choose the target)
+- [ ]  nuclei -t fuzzing-templates -list fuzz_endpoints.txt
